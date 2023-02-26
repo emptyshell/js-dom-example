@@ -1,0 +1,91 @@
+body {
+    width: 100%;
+    display: grid;
+    margin: 0;
+    overflow: scroll;
+    align-items: start;
+}
+
+footer {
+    max-height: 50px;
+    background-color: rgb(243, 238, 193);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+#header {
+    width: 100%;
+    height: 75px;
+    background-color: rgb(216, 238, 91);
+}
+
+#container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    height: 100%;
+    margin-bottom: 50px;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    color: rgb(43, 42, 42);
+}
+
+.footer-text {
+    margin-left: 16px;
+    color: rgb(75, 75, 75);
+}
+
+.child-element {
+    background-color: brown;
+}
+
+.note-container {
+    margin: 8px;
+    height: 250px;
+    background-color: rgb(216, 238, 91);
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    border-radius: 0.5em;
+}
+
+.note-title {
+    text-align: center;
+    color: rgb(43, 42, 42);
+}
+
+.note-text {
+    padding: 5px;
+}
+
+.note-title-input {
+    margin: 8px 8px 0;
+}
+
+.note-text-input {
+    margin: 8px;
+}
+
+.note-remove-btn {
+    color: red;
+    background: transparent;
+    border: 0;
+    font-size: 32px;
+    margin-right: 8px;
+    margin-left: 85%;
+}
+
+.note-add-btn {
+    color: green;
+    background: transparent;
+    border: 0;
+    font-size: 32px;
+    margin-right: 8px;
+    margin-left: 85%;
+}
