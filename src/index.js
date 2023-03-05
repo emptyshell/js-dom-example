@@ -33,3 +33,5 @@ function addChild(e) {
         textValue.value = '';
     }
 }
+
+createInputNote();
